@@ -14,30 +14,30 @@
     }
     .image {
       z-index: 2;
+      margin-top: 5vw;
     }
     .shad {
-      margin-top: 22vw;
+      margin-top: 28vw;
       z-index: 1;
     }
     .card {
-      width: 85vw;
-      margin-top: 23vw;
+      margin-top: 28vw;
       margin-bottom: 10vw;
       padding-top: 25vw;
       padding-bottom: 10vw;
       border-radius: 20px;
     }
-    .accordion {
-      width: 65vw;
-    }
     .image-desktop-0 {
       z-index: 1;
+      right: 8rem;
     }
     .image-desktop-1 {
       z-index: 2;
+      right: 8rem;
     }
     .image-desktop-2 {
       z-index: 3;
+      right: 34rem;
     }
   </style>
 </head>
@@ -46,16 +46,18 @@
     <img src="./images/illustration-woman-online-mobile.svg" alt="Woman illustration" class="image-fluid w-50 position-absolute image">
     <img src="./images/bg-pattern-mobile.svg" alt="image shadow" class="image-fluid w-50 position-absolute shad">
   </div>
-  <div class="row-xxl">
-    <div class="container card d-flex align-items-center">
-      <div class="d-none d-xxl-flex align-items-center images-desktop col-xxl-5">
-        <img src="./images/bg-pattern-desktop.svg" alt="Pattern desktop" class="position-absolute image-desktop-0">
-        <img src="./images/illustration-woman-online-desktop.svg" alt="Woman online desktop" class="position-absolute image-desktop-1">
+
+  <div class="container card d-flex align-items-between pt-xxl-5 mt-xxl-5">
+    <div class="row">
+      <div class="d-none d-xxl-flex align-items-center images-desktop col-xxl position-relative">
+        <img src="./images/bg-pattern-desktop.svg" alt="Pattern desktop" class="position-absolute image-desktop-0 overflow-hidden">
+        <img src="./images/illustration-woman-online-desktop.svg" alt="Woman online desktop" class="position-absolute w-100 image-desktop-1 overflow-hidden">
         <img src="./images/illustration-box-desktop.svg" alt="Box illustration" class="position-absolute image-desktop-2">
       </div>
-      <div class="col-xxl-5">
-        <h1 class="font-weight-bold mb-5 text-center text-xxl-start">FAQ</h1>
-        <div class="accordion" id="accordionExample">
+  
+      <div class="col-xxl">
+        <h1 class="font-weight-bold mb-5 text-center text-xxl-start px-xxl-5">FAQ</h1>
+        <div class="accordion px-sm-5" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">How many team members can I invite?</button>
@@ -98,9 +100,7 @@
           </div>
         </div>
       </div>
-      
-    </div>
-  
+    </div>       
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
