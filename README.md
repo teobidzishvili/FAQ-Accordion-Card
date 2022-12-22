@@ -12,7 +12,6 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -30,8 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Click here](https://teobidzishvili.github.io/FAQ-Accordion-Card/)
 
 ## My process
 
@@ -44,13 +42,9 @@ Users should be able to:
 
 ### What I learned
 
-
+- To build accordion with Bootstrap as well as simple CSS
 
 ### Useful resources
 
 - [Bootstrap accordion](https://getbootstrap.com/docs/5.0/components/accordion/) - This helped me to build accordion very easy.
-- [Example resource 2](https://www.example.com) - 
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.

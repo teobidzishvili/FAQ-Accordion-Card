@@ -33,11 +33,15 @@
     }
     .image-desktop-1 {
       z-index: 2;
+      top: 0rem;
       right: 8rem;
     }
     .image-desktop-2 {
       z-index: 3;
-      right: 34rem;
+      width: 15rem;
+      left: 10rem;
+      top: 15rem;
+
     }
   </style>
 </head>
@@ -47,13 +51,13 @@
     <img src="./images/bg-pattern-mobile.svg" alt="image shadow" class="image-fluid w-50 position-absolute shad">
   </div>
 
-  <div class="container card d-flex align-items-between pt-xxl-5 mt-xxl-5">
+  <div class="container card d-flex align-items-between pt-xxl-5 mt-xxl-5 overflow-hidden">
     <div class="row">
       <div class="d-none d-xxl-flex align-items-center images-desktop col-xxl position-relative">
         <img src="./images/bg-pattern-desktop.svg" alt="Pattern desktop" class="position-absolute image-desktop-0 overflow-hidden">
-        <img src="./images/illustration-woman-online-desktop.svg" alt="Woman online desktop" class="position-absolute w-100 image-desktop-1 overflow-hidden">
-        <img src="./images/illustration-box-desktop.svg" alt="Box illustration" class="position-absolute image-desktop-2">
+        <img src="./images/illustration-woman-online-desktop.svg" alt="Woman online desktop" class="position-absolute w-100 image-desktop-1">
       </div>
+
   
       <div class="col-xxl">
         <h1 class="font-weight-bold mb-5 text-center text-xxl-start px-xxl-5">FAQ</h1>
@@ -102,6 +106,8 @@
       </div>
     </div>       
   </div>
+  <img src="./images/illustration-box-desktop.svg" alt="Box illustration" class="d-none d-xxl-block position-absolute image-desktop-2">
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
